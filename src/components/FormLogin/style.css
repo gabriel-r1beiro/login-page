@@ -1,0 +1,67 @@
+.form-login{
+    color: black;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    font-family: "Inter", sans-serif;
+    background-color: #bbcd56;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 1px #bbcd56;
+}
+
+.form-login label{
+    font-size: 1rem;
+}
+
+.form-login input{
+    height: 2rem;
+    border-radius: .35rem;
+    border: 1px solid #797373;
+    padding: 0 .25rem;
+    margin-bottom: 1rem;
+    font-size: .90rem;
+}
+
+
+
+.form-login .password-forgot{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    a{
+        color: #fa2727;
+        cursor: pointer;
+    }
+}
+
+.form-login .conteiner-remenber{
+    height: 35px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    input{
+        background-color: red;
+    }
+
+    p{
+
+        height: 100%;
+        display: flex;
+    }
+}
+
+.form-login button{
+    font-size: 1.1rem;
+    padding: .3rem 0;
+    border: 0;
+    border-radius: .4rem;
+    cursor: pointer;
+    
+    &&:hover{
+        background-color: red;
+    }
+}
