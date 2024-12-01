@@ -1,0 +1,22 @@
+
+button{
+    border: 0;
+    background-color: transparent;
+}
+
+span{
+    font-size: 1.1rem;
+    transition: color .3s;
+    padding: .3rem .1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sun{
+    color: white;
+}
+
+.moon{
+    color: black;
+}

@@ -1,13 +1,13 @@
 import { useTheme } from "./context/ThemeProvider/ThemeProvider"
 
 import "./App.css";
-import { ButtonTheme } from "./components/ButtonTheme/ButtonTheme";
-import { Form } from "./components/FormLogin/Form";
+import { Header } from "./components/Headers/Header";
 
 export const App = () => {
   const {theme} = useTheme()
   return (
     <div className={`app ${theme}`}>
+      <Header />
     </div>
   )
 }
