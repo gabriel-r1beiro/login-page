@@ -8,12 +8,6 @@ export const App = () => {
   const {theme} = useTheme()
   return (
     <div className={`app ${theme}`}>
-      <div>
-      </div>
-      <div className="conteiner-main">
-        
-        <Form />
-      </div>
     </div>
   )
 }
