@@ -6,7 +6,8 @@ li, a{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 1080px;
 
     font-family: "Inter", sans-serif;
     
@@ -29,7 +30,7 @@ li, a{
     a + a{
         padding: .3rem .7rem;
         border-radius: 2rem;
-        background-color: rgb(101, 101, 216);
+        background-color: var(--porple-700);
         color: white;
     }
 }
@@ -57,7 +58,7 @@ li, a{
         left: 50%; 
         width: 0; 
         height: 2px; 
-        background-color: rgb(22, 6, 245); 
+        background-color: var(--porple-600); 
         transition: width 0.5s ease, left 0.5s ease;
     }
     li:hover::after{
@@ -69,11 +70,11 @@ li, a{
     }
 
     .active{
-        color: rgb(36, 36, 204);
+        color: var(--porple-700);
     }
 
     li:hover{
-        color: rgb(36, 36, 204);
+        color: var(--porple-700);
     }
 
 }

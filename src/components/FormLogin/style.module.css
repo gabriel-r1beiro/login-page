@@ -1,4 +1,4 @@
-.form-login{
+.formLogin{
     color: black;
     height: 32rem;
     display: flex;
@@ -13,7 +13,7 @@
     box-shadow: 0px 0px 10px 1px #929291;
 }
 
-.form-login .conteiener-form {
+.formLogin .conteienerForm {
     width: 100%;
     height: 15rem;
     display: inherit;
@@ -22,11 +22,11 @@
     background-color: transparent;
 }
 
-.form-login label{
+.formLogin label{
     font-size: 1rem;
 }
 
-.form-login input{
+.formLogin input{
     height: 2rem;
     border-radius: .35rem;
     border: 1px solid #797373;
@@ -35,13 +35,13 @@
     font-size: .90rem;
 }
 
-.form-login input:focus{
+.formLogin input:focus{
     outline: none;
 }
 
 
 
-.form-login .password-forgot{
+.formLogin .passwordForgot{
     display: flex;
     justify-content: space-between;
     background-color: transparent;
@@ -51,7 +51,7 @@
     }
 }
 
-.form-login div .conteiner-remenber{
+.formLogin div .conteinerRemenber{
     height: 37px;
     background-color: transparent;
     display: flex;
@@ -70,7 +70,7 @@
     }
 }
 
-.conteiener-form button{
+.conteienerForm button{
     font-size: 1.1rem;
     height: 35px;
     padding: .3rem 0;
@@ -86,14 +86,14 @@
 }
 
 
-.form-login .opcoes-login{
+.formLogin .opcoes-login{
     font-weight: 500;
     font-size: 1.1rem;
     transition: transform .2s;
     position: relative;
 }
 
-.form-login .opcoes-login::after{
+.formLogin .opcoes-login::after{
     content: " ";
     border-left: 1px solid rgba(0, 0, 0, 0.432);
     position: absolute;
@@ -105,7 +105,7 @@
     transform: rotate(-90deg);
 }
 
-.form-login .opcoes-login::before{
+.formLogin .opcoes-login::before{
     content: " ";
     border-left: 1px solid rgba(0, 0, 0, 0.39);
     position: absolute;
@@ -116,7 +116,7 @@
     transform: rotate(90deg);
 }
 
-.form-login .google{
+.formLogin .google{
     width: 100%;
     height: 2rem;
     border-radius: .4rem;
@@ -128,11 +128,11 @@
     cursor: pointer;
 }
 
-.form-login .google:hover{
+.formLogin .google:hover{
     background-color: #e5e7eb;
 }
 
-.form-login .errors{
+.formLogin .errors{
     background-color: red;
     width: 100%;
     height: 30px;

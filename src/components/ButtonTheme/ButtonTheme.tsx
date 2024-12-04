@@ -7,7 +7,7 @@ export const ButtonTheme = () => {
     const {theme, toggleTheme} = useTheme();
 
     return (
-        <button onClick={toggleTheme}>
+        <button className={style.buttonTheme} onClick={toggleTheme}>
             { theme === "light" 
                 ? <span className={style.moon}><FaMoon /></span> 
                 : <span className={style.sun}><FaRegSun/></span>}

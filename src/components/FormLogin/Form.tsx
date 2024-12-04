@@ -1,4 +1,4 @@
-import "./style.css";
+import style from "./style.module.css";
 
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -26,23 +26,23 @@ export const Form = () => {
     };
 
   return (
-    <form className={`form-login ${sucsses ? "sucsses" : ""}`} onSubmit={handleSubmit(onSubmit)}>
+    <form className={`${style.formLogin} ${sucsses ? "sucsses" : ""}`} onSubmit={handleSubmit(onSubmit)}>
         <h2>Welcome back!</h2>
 
-        <div className="conteiener-form">
+        <div className={style.conteienerForm}>
 
           <label htmlFor="email">Email</label>
           <input type="email" placeholder='Digite seu E-mail' {...register("email")}/>
           {errors.email && <span className="errors">{errors.email.message}</span>}
 
-          <div className="password-forgot">
+          <div className={style.passwordForgot}>
               <label htmlFor="password">Password</label>
               <a>Forgot password?</a>
           </div>
           <input type="password" placeholder='Digite sua senha' {...register("password")}/>
           {errors.password && <span className="errors">{errors.password.message}</span>}
           
-          <div className="conteiner-remenber">
+          <div className={style.conteinerRemenber}>
               <input type="checkbox" name="remenber" id="remenber" />
               <p>Remenber me</p>
           </div>
